@@ -7,3 +7,5 @@ Développement d'un site permettant de préparer sa visite au musée du Louvre.
 Fifth project of OpenClassrooms Junior Web developper training.
 Have to include the whole technics seen during the training.
 I develop a website to help an user to prepare a visit at the Louvre museum.
+-
+HTML / CSS / Javascript / jQuery / PHP / MySql / OOP / MVC / API Rest / Bootstrap / Responsive / W3C validation
