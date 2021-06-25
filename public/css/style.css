@@ -1,0 +1,134 @@
+/*GENERAL*/
+HTML {height: 100vh;}
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+}
+section { /*permet de fixer le footer en bas de page qq soit taille écran */
+	flex-grow: 1;
+}
+h2{font-weight: 300; font-size: 3vw;}
+.big-h2{font-size: 4vw;}
+h1, .next-prev-btn {font-weight: 600; font-size: 4vw;}
+h3, .a-h3 {font-weight: 500;  font-size: 2.2vw;}
+h4, p, a, ul, li, label,textarea, caption, option, select, input, .alert, .btn{font-weight: 400; font-size: 1.8vw;}
+.text-field {font-weight: 300;}
+small {font-size: 1vw; font-weight: 300;}
+tr, td, th {font-weight: 400; font-size: 1.5vw;}
+a {color: inherit;}
+a:hover {color: inherit; text-decoration: inherit;}
+ul
+{
+	margin-right: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+.list-style {list-style-type: inherit;}
+hr {border: solid 0.1rem #808080;}
+.small-hr {border: 0.05rem solid #808080;}
+.wght-bold{font-weight: 500;}
+
+/*NAVBAR AND FOOTER*/
+.header-site, .page-footer {background-color: black;}
+.header-site {border-bottom: solid 0.1rem #808080;}
+.bg-self {background-color: #d9d9d9;}
+.navbar button:focus {outline: inherit;}
+.navbar button {outline: inherit;}
+#menu-close {display: none;}
+.fas {color: black; font-size: 2vw;}
+.fa-bars, .fa-times {font-size: 5vw;}
+.page-footer  {border-top: solid 0.1rem #808080;}
+.img-top {margin-bottom: 0.5rem;}
+.visible-link {color: white;}
+.navbar-nav {color: black;}
+.fix-navigation {
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	width: 100%;
+ }
+.nav-item:hover {
+	color: #d9d9d9;
+	background-color: #808080;
+}
+.nav-item {cursor: pointer;}
+#logo-pyramide {width: 9vw; height: auto;}
+.link-footer {font-size: 1.5vw;}
+.home-h3 {font-weight: 600;}
+.icon8-big {width: 5vw; height: auto;}
+.icon8-size {width: 4vw;  height: auto;}
+.icon8-small {width: 3vw;  height: auto;}
+.icon8-xsmall {width: 2vw;  height: auto;}
+.icon8-xxsmall {width: 1vw;  height: auto;}
+
+/*PAGES*/
+.templates {min-height: 100vh;}
+.zone, .card {border: solid 0.2rem black;}
+.fa-angle-right, .fa-angle-left {font-size: 5vw;}
+.link-card:hover {background-color: #acabab; color:black;}
+.heading-title {border-bottom: solid 0.1rem grey;}
+.heading-title-h3 {font-size: 3vw;}
+.heading-title-h4 {font-size: 2.5vw;}
+.title-img {border-radius: 25%;}
+.accordion .btn-link {color: black;}
+.accordion .btn-link:hover {background-color: #d9d9d9; text-decoration: none;}
+.accordion .btn-link:focus {text-decoration: none;}
+.accordion .card-header {background-color: rgba(0,0,0,0);}
+.select-form {font-size: 1.8vw; border-color: black;}
+.select-form:focus {
+	border-color: #d9d9d9;
+	box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+.btn:focus {box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);}
+.align-middle {vertical-align: middle;}
+.select-form option:hover{
+	background-color: black;
+	color: white;
+}
+.datas-result{width: 100%;}
+.jaune {background: linear-gradient(to right, white, 50%, #f8ff87);}
+.verte {background: linear-gradient(to right, white, 50%, #56d64d)}
+.noire {background: linear-gradient(to right, white, 50%, #808080);}
+.bleue {background: linear-gradient(to right, white, 50%, #71a3ff);}
+#h4-hours-noc {
+	background: linear-gradient(to right, #000066 15%, white 25%);
+	color: #ffcc00;
+}
+#h4-hours-day {
+	background: linear-gradient(to right, #808080 15%, white 25%);
+	color: white;
+}
+.noctime {
+	background: linear-gradient(to right, #000066 25% , white);
+	color: #ffcc00;
+	font-weight: bold;
+}
+.daytime {
+	background: linear-gradient(to right, #acabab 25%, white);
+	font-weight: bold;
+}
+.bg-num {
+	background-color: red;
+	color: white;
+}
+#map-es, #map-rc, #map-1st, #map-2nd {position: relative;}
+#close-img--1, #bg-img--1,#close-img-0, #bg-img-0, #close-img-1, #bg-img-1, #close-img-2, #bg-img-2{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.display-map {cursor: pointer;}
+.pw-help {cursor: pointer;}
+#my-pot {display: none;}
+#add-field-title, .delete-field-title {cursor:pointer;}
+.form-control-plaintext {font-weight: 400; font-size: 1.5vw;}
+#template-tour {max-height: 100%;}
+#tour-session {
+	position: fixed;
+	height: auto;
+	max-height: 100%;
+}
